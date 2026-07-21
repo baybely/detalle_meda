@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fashion Store</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+
+    <div class="header-left">
+
+        <button class="menu-btn" onclick="abrirMenu()">
+            ☰ Menú
+        </button>
+
+        <h1>FASHION STORE</h1>
+
+    </div>
+
+    <nav>
+
+        <a href="index.html">Inicio</a>
+
+        <a href="#nosotros">Sobre Nosotros</a>
+
+        <a href="#promociones">Promociones</a>
+
+        <a href="contacto.html">Contacto</a>
+
+        <a href="redes.html">Redes Sociales</a>
+
+        <a href="opiniones.html">Opiniones de Clientes</a>
+
+        <a href="carrito.html">Carrito</a>
+
+       
+        
+
+    </nav>
+
+</header>
+
+
+<!-- MENÚ LATERAL -->
+<div class="sidebar" id="menuLateral">
+
+    <div class="sidebar-header">
+
+        <h2>Categorías</h2>
+
+        <span onclick="cerrarMenu()">×</span>
+
+    </div>
+
+    <ul>
+
+        <li><a href="tops.html">Tops</a></li>
+
+        <li><a href="casacas.html">Casacas</a></li>
+
+        <li><a href="vestidos.html">Vestidos</a></li>
+
+        <li><a href="pantalones.html">Pantalones</a></li>
+
+        <li><a href="shorts.html">Shorts</a></li>
+
+        <li><a href="conjuntos.html">Conjuntos</a></li>
+
+        <li><a href="tacones.html">Tacones</a></li>
+
+    </ul>
+
+</div>
+
+
+<!-- BANNER -->
+<section class="banner">
+
+    <div class="contenido-banner">
+
+        <h2>Moda Urbana</h2>
+
+        <p>Encuentra la mejor ropa con estilo moderno</p>
+
+        <button>Comprar Ahora</button>
+
+    </div>
+
+</section>
+
+
+<!-- PRODUCTOS -->
+<section class="contenedor">
+
+    <h2 class="titulo">Nuestros Productos</h2>
+
+    <div class="productos">
+
+        <!-- PRODUCTO 1 -->
+        <div class="card">
+            <div class="card-inner">
+
+                <!-- Frente -->
+                <div class="card-front">
+                    <img src="img/tops.jpeg" alt="Top">
+
+                    <h3>Top Escotado</h3>
+
+                    <p class="descripcion">
+                        Top moderno juvenil
+                    </p>
+
+                    <p class="precio">
+                        S/ 60
+                    </p>
+
+                    <a href="carrito.html">
+                        <button>COMPRAR</button>
+                    </a>
+                </div>
+
+                <!-- Atrás -->
+                <div class="card-back">
+                    <h2>🔥 OFERTA</h2>
+
+                    <p class="antes">Antes: S/60</p>
+
+                    <p class="ahora">Ahora: S/45</p>
+
+                    <p>25% DE DESCUENTO</p>
+
+                    <a href="carrito.html">
+                        <button>APROVECHAR</button>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- PRODUCTO 2 -->
+        <div class="card">
+            <div class="card-inner">
+
+                <div class="card-front">
+                    <img src="img/casacas.jpeg" alt="Casaca">
+
+                    <h3>Casaca Negra</h3>
+
+                    <p class="descripcion">
+                        Moda urbana
+                    </p>
+
+                    <p class="precio">
+                        S/120
+                    </p>
+
+                    <a href="carrito.html">
+                        <button>COMPRAR</button>
+                    </a>
+                </div>
+
+                <div class="card-back">
+                    <h2>🔥 OFERTA</h2>
+
+                    <p class="antes">Antes: S/120</p>
+
+                    <p class="ahora">Ahora: S/90</p>
+
+                    <p>25% DE DESCUENTO</p>
+
+                    <a href="carrito.html">
+                        <button>APROVECHAR</button>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- PRODUCTO 3 -->
+        <div class="card">
+            <div class="card-inner">
+
+                <div class="card-front">
+                    <img src="img/tacos.jpeg" alt="Tacón">
+
+                    <h3>Tacón Perla</h3>
+
+                    <p class="descripcion">
+                        Diseño elegante
+                    </p>
+
+                    <p class="precio">
+                        S/150
+                    </p>
+
+                    <a href="carrito.html">
+                        <button>COMPRAR</button>
+                    </a>
+                </div>
+
+                <div class="card-back">
+                    <h2>🔥 OFERTA</h2>
+
+                    <p class="antes">Antes: S/150</p>
+
+                    <p class="ahora">Ahora: S/110</p>
+
+                    <p>27% DE DESCUENTO</p>
+
+                    <a href="carrito.html">
+                        <button>APROVECHAR</button>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros" class="nosotros">
+
+    <div class="card-nosotros">
+
+        <img src="img/nosotros.jpeg" alt="Sobre Nosotros">
+
+        <div class="texto-nosotros">
+
+            <h2>Sobre Nosotros</h2>
+
+            <p>
+                En Fashion Store nos dedicamos a realzar tu estilo y resaltar tu belleza con las últimas tendencias en moda femenina.
+                Ofrecemos prendas modernas, elegantes y cómodas para que te sientas segura en cada ocasión.
+
+                Nos apasiona la moda y por eso traemos estilos únicos que se adaptan a tu personalidad.
+                Nuestro compromiso es brindarte calidad, buen precio y una atención amable que te haga sentir especial.
+
+                En Fashion Store creemos que la moda es una forma de expresión, por eso te ayudamos a encontrar tu propio estilo.
+                Trabajamos día a día para ofrecerte lo mejor en ropa femenina.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PROMOCIONES -->
+<section id="promociones" class="promociones">
+
+    <h2>Promociones</h2>
+
+    <ul>
+
+        <li>2 prendas por S/100</li>
+
+        <li>30% de descuento en casacas</li>
+
+        <li>Envío gratis desde S/150</li>
+
+    </ul>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <p>
+        © 2026 Fashion Store | Todos los derechos reservados
+    </p>
+
+</footer>
+
+
+<!-- SCRIPT -->
+<script>
+
+function abrirMenu(){
+
+    document.getElementById("menuLateral").classList.add("active");
+}
+
+function cerrarMenu(){
+
+    document.getElementById("menuLateral").classList.remove("active");
+}
+
+</script>
+
+</body>
+
+</html>
